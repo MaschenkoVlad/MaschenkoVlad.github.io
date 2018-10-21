@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Maschenko NoSock</title>
+        <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+        <!-- Bootstrap -->
+        <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row row__header">
+                <div class="visible-xs col-xs-2 burger__box">
+                    <div class="burger">
+                        <div class="br-stick"></div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3 hidden-xs">
+                    <a href="#" class="logo__link">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-12 nav__box">
+                    <ul class="header__list navbar-nav">
+                        <li class="header__list_item"><a href="#" class="header__list_link">About</a></li>
+                        <li class="header__list_item"><a href="#" class="header__list_link">Store</a></li>
+                        <li class="header__list_item"><a href="#" class="header__list_link">Lookbook</a></li>
+                        <li class="header__list_item"><a href="#" class="header__list_link">Contact</a></li>
+                        <li class="header__list_item"><a href="#" class="header__list_link">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-6 sol-xs-2 icon__box">
+                    <ul class="header__icon">
+                        <li class="header__icon_item"><a href="#" class="header__icon_link header__icon_link-search"></a></li>
+                        <li class="header__icon_item"><a href="#" class="header__icon_link header__icon_link-like"></a></li>
+                        <li class="header__icon_item"><a href="#" class="header__icon_link header__icon_link-cart"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="person__info">
+        <form action="form.php" class="user__info">
+            <div class="container">
+                <div class="row row__user">
+                    <div class="col-md-4 col-xs-12 user-detailes">
+                        <h2 class="form__title">Personal Detail<span class="arrow"></span></h2>
+                        <div class="wrap__input">
+                            <input type="text" placeholder="name">
+                            <input type="email" placeholder="email">
+                            <input type="number" placeholder="phone number">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 user-address">
+                        <h2 class="form__title">Billing Address<span class="arrow"></span></h2>
+                        <div class="wrap__input">
+                            <input type="text" placeholder="line">
+                            <input type="text" placeholder="towr">
+                            <input type="text" placeholder="country">
+                            <input type="text" placeholder="code">
+                        </div>    
+                    </div>
+                    <div class="col-md-4 col-xs-12 user-pay">
+                        <h2 class="form__title">Payment Details<span class="arrow"></span></h2>
+                        <div class="wrap__input">                        
+                            <input type="text" placeholder="name" class="pay-name">
+                            <input type="number" placeholder="card N*" class="pay-card">
+                            <div class="wrap-code">
+                                <label for="code">code</label>
+                                <input type="text" id="code">
+                            </div>
+                            <div class="wrap-date">
+                                <label for="date" class="date">exp data</label>
+                                <input type="text" id="date"><span>/</span><input type="text">
+                            </div>
+                        </div>    
+                        <a href="#" class="form-btn">order review</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="container top-footer">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <ul class="footer__nav">
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">About</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Contact</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Shipping info</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Store</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">FAQ's</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Privacy &amp; Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-md-offset-1 col-sm-12">
+                    <form action="form.php" class="email-form">
+                        <label for="email">Newsletters</label>
+                        <input type="mail" class="email" id="email" placeholder="E-mail">
+                    </form>
+                </div>
+                <div class="col-md-3 social__box col-sm-12">
+                    <ul class="footer__social">
+                        <li class="social__item"><a href="#" class="social__link social__link-fb"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link-gp"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link-tw"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link-inst"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link-pn"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row down-footer">
+                <div class="col-md-4 col-md-offset-4">
+                    <span class="footer__copy">Copyright &copy; 2015 Nosockstore All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="libs/jquery-3.3.1.min.js"></script>
+    <script src="libs/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
