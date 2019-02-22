@@ -1,2 +1,2 @@
-# NosyBoy.github.io
+# MashenkoVlad.github.io
 Мой первый опубликованный сайт
